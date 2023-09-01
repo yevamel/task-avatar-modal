@@ -1,0 +1,45 @@
+/* Секція Quote */
+.quote__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0 10px;
+}
+.quote__container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-image: url(/src/images/main/quote/quote_logo.png);
+  background-position: 48% 50%;
+  background-repeat: no-repeat;
+}
+.quote__title {
+  color: #0a3853;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.quote__author {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+/* Секція Trailer */
+.trailer {
+  padding: 330px 590px;
+  background-color: rgba(43, 74, 97, 0.527);
+  background-image: url(/src/images/main/trailer/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trailer .button {
+  padding: 25px 20px;
+}
