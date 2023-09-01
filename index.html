@@ -26,7 +26,21 @@
       </section>
       <section class="trailer">
         <div class="trailer__container">
-          <button class="button">Дивитись трейлер</button>
+          <button class="button" data-modal-open>Дивитись трейлер</button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="button-close" data-modal-close>x</button>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/1SGVlK5kc0g?si=Q2Cm_MCxuSr5h2Cs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
       <section class="quote">
@@ -37,6 +51,7 @@
           <p class="quote__author">Джейк Саллі</p>
         </div>
       </section>
-     
+    </main>
+    <script src="/src/js/modal.js"></script>
   </body>
 </html>
