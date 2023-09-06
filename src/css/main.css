@@ -65,6 +65,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   background-color: #acacac;
+  box-shadow: rgb(49, 49, 49) 7px 5px 5px 6px,rgb(49, 49, 49) 0px 0px 1px  inset;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -80,4 +81,10 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+.button-close:hover{
+  color: red;
+}
+.button:hover{
+  color:rgb(59, 59, 123) ;
 }
